@@ -1,4 +1,4 @@
-export default  {
+export default{
     apiKey: "AIzaSyBvz_AxYuTaIMzW7E9USWk922LSKKIDNng",
     authDomain: "imagenes-heroes.firebaseapp.com",
     databaseURL: "https://imagenes-heroes-default-rtdb.firebaseio.com",
