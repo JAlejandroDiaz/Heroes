@@ -1,4 +1,11 @@
 import { Link } from "react-router-dom"
+import React, { useEffect, useState } from 'react';
+import {Hola} from './../../firebase-confing'
+import { connectStorageEmulator } from "firebase/storage";
+import { Await } from "react-router-dom/dist";
+
+
+
 
 export const HeroCard = ({
 id,
@@ -8,6 +15,11 @@ alter_ego,
 first_appearance,
 characters
 }) =>{
+    
+    const resultado =   Hola(id)
+
+    console.log(resultado)
+
     const heroImage = `/assets/heroes/${id}.jpg`
     const charactersByHero = (<p>{ characters }</p>)
     return(
