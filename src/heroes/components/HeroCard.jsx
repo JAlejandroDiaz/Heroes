@@ -15,7 +15,7 @@ characters
             <div className="card">
                 <div className="row no-gutters">
                     <div className="col-4">
-                        <img src={ heroImage } className="card-img" alt="{superhero}" />
+                        <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-heroes.appspot.com/o/imagenes%2Fheroes%2Fdc-arrow.jpg?alt=media&token=6c890e37-96f4-4b08-964f-3b5099e80b83" className="card-img" alt="{superhero}" />
                     </div>
                     <div className="col-8">
                         <div className="card-body">
